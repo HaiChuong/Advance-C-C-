@@ -21,6 +21,10 @@ Có tác dụng nhảy lệnh theo vị trí đặt trước như goto nhưng c�
 
 Thường được sử dụng để quản lý ngoại lệ.
 ```
+#include <stdio.h>
+#include <setjmp.h>
+
+jmp_buf buf;
 #define TRY if ((exception_code = setjmp(buf)) == 0) 
 #define CATCH(x) else if (exception_code == (x)) 
 #define THROW(x) longjmp(buf, (x))

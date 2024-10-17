@@ -95,4 +95,5 @@ union Data {
 ```
 ![union](https://github.com/user-attachments/assets/460de316-5177-49fb-9706-843b28d731dd)
 ![union1](https://github.com/user-attachments/assets/090d08b5-f80c-487f-bf90-ce05380a9150)
+
 Hệ thống sẽ gán giá trị byte đầu tiên giá trị 11111010 vào var1 kiểu uint8_t.

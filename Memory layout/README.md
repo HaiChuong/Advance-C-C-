@@ -102,12 +102,6 @@ int *A = (int *)malloc(18446744073709551615);
 warning: argument 1 value '18446744073709551615' exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
 ```
 
-
-## Khái niệm
-Khi chạy các file main.exe và main.hex (lưu ở bộ nhớ SSD hoặc FLASH) thì các chương trình này sẽ được copy vào bộ nhớ RAM để thực thi. Memory layout mô tả cách hệ điều hành phân bổ không gian bộ nhớ cho các thành phần.
-
-Memory layout gồm 5 phần chính: Text segment, Data segment, Bss segment, Heap, Stack.
-
 ## Bảng so sánh malloc, calloc, realloc
 |  | malloc | calloc| realloc |
 |:--------------:|:-------:|:------:|:-------:|

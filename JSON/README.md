@@ -1,6 +1,6 @@
 # JSON
 
-JSON là chuỗi dữ liệu với các phần tử có nhiều kiểu dữ liệu khác nhau. Mỗi phần tử trong JSON là 1 đối tượng và cách nhau 1 dấu phẩy.
+JSON là chuỗi dữ liệu với các phần tử có nhiều kiểu dữ liệu khác nhau. Mỗi phần tử trong JSON có thể là 1 trong nhiều kiểu dữ liệu và cách nhau 1 dấu phẩy.
 
 Một đối tượng JSON là một tập hợp các cặp key-value, được bao bọc bởi dấu ngoặc nhọn {}. 
 
